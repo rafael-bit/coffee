@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>GREP Coffee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/menu.css" />
+    <script src="../script/script.js"></script>
+  </head>
+  <body>
+    <section class="hContanier">
+      <header>
+        <nav>
+          <div class="logo">
+            <span class="cicle"></span>
+            Grep <br />
+            Coffee
+            <span class="cicle"></span>
+          </div>
+          <input type="checkbox" id="check" />
+          <label for="check" class="menu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </label>
+          <div class="nav-links">
+            <a href="#" class="active"></a>
+            <a href="../index.html">Home</a>
+            <a href="./menu.html">Menu</a>
+            <a href="./about.html">About</a>
+            <a href="./talk.html">Talk to us</a>
+          </div>
+        </nav>
+      </header>
+    <section>
+      <main>
+        <div class="topo">
+          <h1>Menu</h1>
+          <h2>Monte seu box e receba em 15 minutos!</h2>
+        </div>
+        <br><br>
+        <h3>Primeiro, escolha o café</h3>
+
+        <div id="express" class="produto" onClick="getExpress()">
+          <img src="../assets/expresso.webp" alt="" />
+          <h4>Café expresso</h4>
+          <p class="info">Um café expresso, frequentemente referido simplesmente como expresso, é um método de preparar café através da passagem de água quente, não fervente, sob alta pressão pelo café moído.</p>
+          <p class="preco">R$ 3,50</p>
+        </div>
+        <br>
+        <div id="capu" class="produto" onClick="getCapu()">
+          <img src="../assets/capu.jpg" alt="" />
+          <h4>Cappuccino</h4>
+          <p class="info">O cappuccino clássico italiano é uma combinação de café espresso e leite quente, coberto com espuma de leite. Não se usa chocolate. Coloca-se cerca de 1/3 de espresso na xícara, seguido de 1/3 de leite e finalizado com 1/3 de espuma de leite.</p>
+          <p class="preco">R$ 7,50</p>
+        </div>
+        <br>
+        <div id="ma" class="produto" onClick="getMa()">
+          <img src="../assets/macchiato.webp" alt="" />
+          <h4>Macchiato</h4>
+          <p class="info">Café macchiato também conhecido por espresso macchiato ou simplesmente macchiato, é uma variedade típica de café com leite italiana, consistindo em um café expresso misturado com um pouco de leite quente com espuma. O termo faz referência à mancha de leite, no café macchiato.</p>
+          <p class="preco">R$ 10,00</p>
+        </div>
+
+        <h3>Agora, os adicionais do café!</h3>
+
+        <div id="Leite" class="produto" onClick="getLeite()">
+          <h4>Leite</h4>
+          <p class="preco">R$ 1,00</p>
+        </div>
+        <br>
+        <div id="acucar" class="produto" onClick="getAcucar()">
+          <h4>Cubo de açucar</h4>
+          <p class="preco">R$ 1,00</p>
+        </div>
+
+        <h3>Agora, o acompanhamento!</h3>
+
+        <div id="paoqueijo" class="produto" onClick="getPaoqueijo()">
+          <h4>Pão de queijo</h4>
+          <p class="preco">R$ 2,00</p>
+        </div>
+        <br>
+        <div id="especial" class="produto" onClick="getEspecial()">
+          <h4>Especial da casa</h4>
+          <p class="info">Chocolate - Morando - Maracujá</p>
+          <p class="preco">R$ 5,99</p>
+        </div>
+
+        <div class="botao" onClick="finalizarPedido()">Finalizar pedido</div>
+      </main>
+
+      <aside>
+        <img src="" alt="" />
+      </aside>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
