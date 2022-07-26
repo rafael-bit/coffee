@@ -10,3 +10,8 @@
 </div>
 
 ![Preview](assets/prev1.png)
+![Preview](assets/prev2.png)
+![Preview](assets/prev3.png)
+![Preview](assets/prev4.png)
+![Preview](assets/prev5.png)
+![Preview](assets/prev6.png)
