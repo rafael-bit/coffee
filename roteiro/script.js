@@ -62,7 +62,7 @@ function finalizarPedido() {
   mensagem =
     "Olá, gostaria de pedir um : " +
     cafe +
-    "com " +
+    " com " +
     acompanhamento +
     " e " +
     add +".";
